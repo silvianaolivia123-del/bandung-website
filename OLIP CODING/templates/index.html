@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BandungTales | Walking tours in Bandung with an English-speaking guide</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">BandungTales</a>
+    <nav>
+      <a href="#tours">Our tours</a>
+      <a href="#guide">Meet the guide</a>
+      <a href="#info">How it works</a>
+      <a class="nav-cta" href="#plan">Plan your walk</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Walk Bandung. Hear what the buildings remember.</h1>
+        <p>Private walking tours in English through Bandung's art deco streets, historic squares, and Sundanese food corners.</p>
+        <a class="button" href="#plan">Plan your walk</a>
+        <ul class="facts">
+          <li>Guided in English</li>
+          <li>Private group of up to 4</li>
+          <li>2 to 4 hours</li>
+        </ul>
+      </div>
+      <svg class="skyline" viewBox="0 0 1200 140" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <g fill="#08161f">
+          <rect x="0" y="100" width="1200" height="40"/>
+          <rect x="60" y="60" width="70" height="80"/><rect x="75" y="40" width="40" height="20"/><rect x="90" y="22" width="10" height="18"/>
+          <rect x="180" y="80" width="90" height="60"/><path d="M180 80 Q225 30 270 80Z"/>
+          <rect x="330" y="50" width="60" height="90"/><rect x="345" y="30" width="30" height="20"/><rect x="355" y="12" width="10" height="18"/>
+          <rect x="450" y="85" width="120" height="55"/><rect x="480" y="65" width="60" height="20"/><rect x="505" y="45" width="10" height="20"/>
+          <rect x="640" y="60" width="80" height="80"/><path d="M640 60 L680 25 L720 60Z"/>
+          <rect x="790" y="80" width="100" height="60"/><rect x="815" y="55" width="50" height="25"/>
+          <rect x="950" y="45" width="60" height="95"/><rect x="965" y="25" width="30" height="20"/><rect x="975" y="8" width="10" height="17"/>
+          <rect x="1070" y="75" width="110" height="65"/><path d="M1070 75 Q1125 25 1180 75Z"/>
+        </g>
+      </svg>
+    </section>
+    <div class="stripe" aria-hidden="true"></div>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Jalan Braga</span><span>Gedung Merdeka</span><span>Alun-alun Bandung</span><span>Art deco facades</span><span>Sundanese snacks</span><span>Asia-Africa 1955</span>
+        <span>Jalan Braga</span><span>Gedung Merdeka</span><span>Alun-alun Bandung</span><span>Art deco facades</span><span>Sundanese snacks</span><span>Asia-Africa 1955</span>
+      </div>
+    </div>
+
+    <section id="tours" class="section">
+      <h2>Choose a walk</h2>
+      <div class="cards">
+        <article class="card card-braga">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><rect x="10" y="30" width="44" height="28"/><rect x="18" y="20" width="28" height="10"/><rect x="26" y="10" width="12" height="10"/><rect x="30" y="2" width="4" height="8"/></g></svg>
+          <h3>Braga Heritage Walk</h3>
+          <p>Follow Jalan Braga past art deco facades and old cafes, and learn how Bandung earned its "Paris of Java" nickname.</p>
+        </article>
+        <article class="card card-asia">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><rect x="14" y="6" width="4" height="52"/><path d="M18 8 H54 L46 20 L54 32 H18Z"/></g></svg>
+          <h3>Asia-Afrika Story Walk</h3>
+          <p>Visit the street and the Gedung Merdeka building where leaders from Asia and Africa met in 1955.</p>
+        </article>
+        <article class="card card-sunda">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><g fill="currentColor"><path d="M6 32 H58 A26 26 0 0 1 6 32Z"/><rect x="26" y="8" width="4" height="16" rx="2"/><rect x="36" y="12" width="4" height="12" rx="2"/></g></svg>
+          <h3>Sunda Food &amp; Culture Walk</h3>
+          <p>Taste local snacks, meet street vendors, and hear the stories behind Sundanese dishes and customs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="guide" class="guide">
+      <div class="guide-inner">
+        <div class="monogram" aria-hidden="true">SO</div>
+        <div>
+          <h2>Meet your guide</h2>
+          <p>Hi, I'm Silviana Olivia, an English Education student and local guide. I explain history and culture in clear, friendly English, and I adjust my pace and vocabulary to suit every visitor.</p>
+          <p>Ask questions along the way. Every walk is private, so we can follow what interests you most.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="route" class="section">
+      <h2>A sample 3-hour walk</h2>
+      <ol class="timeline">
+        <li><h3>Meet your guide</h3><p>We start at your hotel or an agreed meeting point.</p></li>
+        <li><h3>Jalan Braga</h3><p>Spot art deco details and hear the stories of old cafes and shops.</p></li>
+        <li><h3>Coffee break</h3><p>Sit down, taste something local, and ask all your questions.</p></li>
+        <li><h3>Jalan Asia-Afrika</h3><p>Stand outside Gedung Merdeka and learn about the 1955 conference.</p></li>
+        <li><h3>Alun-alun Bandung</h3><p>Finish at the city square with time for photos.</p></li>
+      </ol>
+      <p class="small">Sample route only. The final route is confirmed with your guide.</p>
+    </section>
+
+    <section class="facts-band">
+      <div class="facts-inner">
+        <h2>Did you know?</h2>
+        <div class="fact-grid">
+          <div class="fact"><h3>Paris of Java</h3><p>Bandung earned this nickname for its elegant streets and cafe culture.</p></div>
+          <div class="fact"><h3>Art deco streets</h3><p>Jalan Braga is known for its colonial-era and art deco buildings.</p></div>
+          <div class="fact"><h3>1955</h3><p>Leaders from Asia and Africa met in Bandung at Gedung Merdeka.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="section">
+      <h2>What to expect</h2>
+      <dl class="info">
+        <div><dt>Language</dt><dd>All tours are guided in English.</dd></div>
+        <div><dt>Group size</dt><dd>One private group of 1 to 4 guests.</dd></div>
+        <div><dt>Duration</dt><dd>Choose 2, 3, or 4 hours.</dd></div>
+        <div><dt>Price</dt><dd>Rp150.000 per hour for the whole group, no matter how many guests.</dd></div>
+      </dl>
+    </section>
+
+    <section id="faq" class="section">
+      <h2>Quick answers</h2>
+      <details><summary>Is this a real booking?</summary><p>No. The form gives you an estimate only. Details are confirmed with the guide.</p></details>
+      <details><summary>Does the price change with more guests?</summary><p>No. The fee is Rp150.000 per hour for the whole group of 1 to 4 guests.</p></details>
+      <details><summary>What language is the tour in?</summary><p>English, with clear and friendly explanations for every level.</p></details>
+      <details><summary>How long are the walks?</summary><p>You can choose 2, 3, or 4 hours.</p></details>
+    </section>
+
+    <section id="plan" class="plan">
+      <div class="plan-inner">
+        <div class="plan-intro">
+          <h2>Plan your walk</h2>
+          <p>Pick your tour, how long you want to walk, and how many people are coming. You will see an estimated fee right away. This is not a booking.</p>
+          <p class="price-hint">Rp150.000 per hour for your whole group.</p>
+        </div>
+
+        <div class="plan-card">
+          <form method="post" action="{{ url_for('index') }}#plan" novalidate>
+            <label for="tour">Tour theme</label>
+            <select id="tour" name="tour">
+              {% for t in tours %}
+              <option value="{{ t }}" {% if form.tour == t %}selected{% endif %}>{{ t }}</option>
+              {% endfor %}
+            </select>
+
+            <div class="row">
+              <div>
+                <label for="hours">Duration</label>
+                <select id="hours" name="hours">
+                  {% for h in [2, 3, 4] %}
+                  <option value="{{ h }}" {% if form.hours == h|string %}selected{% endif %}>{{ h }} hours</option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div>
+                <label for="guests">Number of guests</label>
+                <input id="guests" name="guests" type="number" value="{{ form.guests }}" min="1" max="4">
+              </div>
+            </div>
+
+            <label for="date">Preferred date</label>
+            <input id="date" name="date" type="date" value="{{ form.date }}">
+
+            <p id="live-preview" class="live-preview" aria-live="polite"></p>
+
+            <button class="button" type="submit">Get my estimate</button>
+          </form>
+
+          {% if error %}
+          <div class="message error" role="alert">{{ error }}</div>
+          {% endif %}
+
+          {% if result %}
+          <div class="message result" role="status">
+            <p class="label">Estimated guide fee</p>
+            <p class="amount">{{ result.amount }}</p>
+            <p>{{ result.summary }}{% if result.date %}, on {{ result.date }}{% endif %}.</p>
+            <p class="note">This is an estimate, not a final price. Details are confirmed with the guide.</p>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>BandungTales by Silviana Olivia. A classroom project; the rate is an example for learning purposes only.</p>
+  </footer>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
